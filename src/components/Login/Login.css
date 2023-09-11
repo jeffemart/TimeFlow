@@ -4,9 +4,8 @@
     padding:0;
 }
 .container{
-    min-height:100vh;
-    background-color:#f8f6f5;
     display:flex;
+    min-height:100vh;
     justify-content:center;
     align-items:center;
 }
