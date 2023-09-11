@@ -4,9 +4,8 @@
     padding:0;
 }
 .container{
-    min-height:100vh;
-    background: linear-gradient(to bottom, #FFFF00, #FF69B4);
     display:flex;
+    min-height:100vh;
     justify-content:center;
     align-items:center;
 }
