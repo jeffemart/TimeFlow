@@ -5,7 +5,7 @@
 }
 .container{
     min-height:100vh;
-    background-color:#f8f6f5;
+    background: linear-gradient(to bottom, #FFFF00, #FF69B4);
     display:flex;
     justify-content:center;
     align-items:center;
