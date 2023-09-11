@@ -5,6 +5,7 @@ import Chip from '../../components/common/Chip';
 import EmptyList from '../../components/common/EmptyList';
 import './styles.css';
 import { Link } from 'react-router-dom';
+import Footer from '../../components/Home/Footer';
 
 const Blog = () => {
   const { id } = useParams();
@@ -15,11 +16,11 @@ const Blog = () => {
     if (blog) {
       setBlog(blog);
     }
-  }, [id]);
+  }, []);
 
   return (
     <>
-      <Link className='blog-goBack' to='/'>
+      <Link className='blog-goBack' to='/blog'>
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
       {blog ? (
@@ -41,6 +42,7 @@ const Blog = () => {
       ) : (
         <EmptyList />
       )}
+      <Footer />
     </>
   );
 };
