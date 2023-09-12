@@ -1,5 +1,5 @@
-main {
-  height: 80vh;
+.main-footer {
+  height: 10vh;
 }
 
 footer {
@@ -123,10 +123,23 @@ footer {
   font-weight: 100;
 }
 
+@media screen and (max-width: 1080px) {
+  #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+  }
+  .main-footer {
+    height: 5vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #footer_content {
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
+  }
+  .main-footer {
+    height: 10vh;
   }
 }
 

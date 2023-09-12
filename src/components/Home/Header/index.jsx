@@ -5,7 +5,7 @@ import Nav from '../Nav';
 const Header = () => (
   <header className='home-header'>
     <Nav />
-    <h2>Inc. This Morning</h2>
+    <h2>Titulo desta pagina</h2>
     <h1>
       <span>“</span> Blog <span>”</span>
     </h1>

@@ -5,6 +5,7 @@ import './index.css';
 function Footer() {
   return (
     <>
+    <main className="main-footer"></main>
       <footer>
         <div id="footer_content">
           <div id="footer_contacts">

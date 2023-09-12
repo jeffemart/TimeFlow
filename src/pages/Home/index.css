@@ -12,7 +12,7 @@ nav .menu-icon{
 nav .logo a{
   font-size: 30px;
   font-weight: bold;
-  color: #5654b3;
+  color: #fec644;
   text-decoration: none;
 }
 nav ul{
@@ -27,7 +27,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
-  color: #5654b3;
+  color: #ff6db0;
 }
 nav ul button{
   border: none;

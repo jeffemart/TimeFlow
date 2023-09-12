@@ -34,7 +34,7 @@ function Nav() {
       {/* nav */}
       <nav>
         <div className="logo">
-          <Link to="/">Create.co</Link> {/* Substitua o <a> pelo <Link> */}
+          <Link to="/">Image Logo</Link> {/* Substitua o <a> pelo <Link> */}
         </div>
         <ul ref={menuRef}>
           <li><Link to="/">Home</Link></li> {/* Substitua o <a> pelo <Link> */}
